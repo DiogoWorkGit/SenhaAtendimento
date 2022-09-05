@@ -77,20 +77,15 @@ public class Def_DAO {
         
     }
    
-    public static void ArmazenaCadeirante(int x){
+    public static void ArmazenaPreferencial(int x){
         numPreferencial[j2]=x;
         
-            //numPreferencia[j2]=x;
             j2++;
             if(j2==5){
                 j2=0;
             }
-            l2++;
-            m2++;
-            n2++;
-            o2++;
-            p2++;
-            
+            l2++; m2++; n2++; o2++; p2++;
+           
             if(l2==5){
                 l2=0;
             }
